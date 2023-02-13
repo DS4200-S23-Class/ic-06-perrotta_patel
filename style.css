@@ -1,0 +1,15 @@
+/* Aligning header */
+h1 {
+	text-align: center;
+  }
+
+  /* Make axis*/
+.axis {
+	stroke: rgb(0,0,0);
+	stroke-width: 3;
+}
+
+#bottom_parralel {
+    color: rgb(43, 43, 174);
+    height: 5px;
+}

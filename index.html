@@ -2,11 +2,38 @@
 <html> 
 
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset=utf-8/>
+    <title>ic-06</title>
 </head>
 
 
 <body>
+
+    <!-- Div For Header  -->
+    <div>
+        <h1>JavaScript Part 2</h1>
+    </div>
+
+    <div class="frame">
+        <svg id="frame" height="500" width="500">
+            <line class="axis" x1="0" y1="500" x2="500" y2="500"></line>
+            <line class="axis" x1="0" y1="500" x2="0" y2="0"></line>
+            <line class="axis" x1="0" y1="0" x2="500" y2="0"></line>
+            <line class="axis" x1="500" y1="500" x2="500" y2="0"></line>
+
+            <line class="axis" id="bottom_parallel" x1="0" y1="475" x2="500" y2="475"></line>
+
+            <circle id="top_right" class="point" cx="475" cy="20" r="10"></circle>
+
+        </svg>
+    </div>
+
+    <button onclick="clickButton()">
+        Button
+    </button>
+
+    <script src="java.js"></script>
 
 
 </body>
